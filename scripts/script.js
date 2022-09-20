@@ -31,7 +31,40 @@ let months = [
     "December"
 ];
 
-let d = newDate();
+// Date{
+//     time: 
+//     date: 
+//     setTimeout()
+//}
+
+// let black_cat = new cat()
+// black_cat.color = black 
+// black_cat.makeANoise()
+
+
+// class employee {
+//     duties: []
+//     salary: 
+//     name:
+//     work(){
+//        display every duty  
+//     }
+// }
+
+// let nefi = new employee()
+// nefi.name = "Nefi"
+// nefi.salary = "40k"
+// nefi.duties = ["tutoring", "dishes"]
+// nefi.work()
+
+// let Sariah = new employee()
+// Sariah.name = "Sariah"
+// Sariah.salary = "1M"
+// Sariah.duties = "Amazon CEO "
+// Sariah.work()
+
+
+let d = new Date();
 
 let dayName = daynames[d.getDay()];
 
