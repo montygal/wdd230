@@ -1,0 +1,24 @@
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-family: 'Inter Tight', sans-serif; 
+}
+main{
+    display: grid;
+    float: left;
+}
+.fort{
+    width:5px;
+    height:2px;
+}
+.fora{
+    width: 5px;
+    height: 2px;
+}
+.forf{
+    width: 5px;
+    height: 5px;
+}
+

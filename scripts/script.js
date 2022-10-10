@@ -56,3 +56,5 @@ try {
 } catch(e) {
     alert("Error with code or your browser doesn't support Locale");
 }
+var today = newDate();
+var time = today.getHours(); + ":" + today
