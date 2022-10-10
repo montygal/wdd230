@@ -1,3 +1,21 @@
+<<<<<<< HEAD
+@media only screen and(min-width: 60em){
+    main{
+        max-width: 770px;
+        margin: 0 auto;
+        display:grid;
+        grid-template-columns: 1fr;
+        font-size: 0.8rem;
+    }
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-family: 'Inter Tight', sans-serif; 
+}
+=======
 a{
     color: blue
 }
@@ -38,3 +56,4 @@ footer{
 }
 
 
+>>>>>>> 947c560375c9f8fa345ca5d38457db6a2eadb7c0
