@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media only screen and(min-width: 60em){
     main{
         display:grid;
@@ -11,4 +12,23 @@ h1{
 
 p{
     font-family: 'Inter Tight', sans-serif; 
+=======
+@media only screen and(min-width: 32.5em){
+    h1 {
+        font-size: 2.5rem;}
+    h2 {
+        font-size: 1.5rem;}
+    
+    header, footer{
+        border-radius: 10px;}
+
+    header img{
+        box-shadow: 0 0 0 30px #444;
+        float: right;
+        border-radius: 0 10px 0 0;
+    }
+
+
+    
+>>>>>>> 947c560375c9f8fa345ca5d38457db6a2eadb7c0
 }

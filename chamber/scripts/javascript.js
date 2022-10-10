@@ -43,35 +43,3 @@ let year = d.getFullYear();
 let fulldate = "Last modified date: " + (d.getMonth() + 1) + "/" + d.getDate()  + "/" + year;
 
 document.getElementById("currentdate").textContent = fulldate;
-
-<<<<<<< HEAD
-try {
-    let options = {
-        weekday: "long",
-        day: "numeric",
-        month: "long",
-        year: "numeric"
-    };
-    document.getElementById(
-        "currentdate"
-    ).textContent = new Date().toLocaleDateString("en-US", options);
-} catch(e) {
-    alert("Error with code or your browser doesn't support Locale");
-}
-var today = newDate();
-var time = today.getHours(); + ":" + today
-=======
-// try {
-//     let options = {
-//         weekday: "long",
-//         day: "numeric",
-//         month: "long",
-//         year: "numeric"
-//     };
-//     document.getElementById(
-//         "currentdate"
-//     ).textContent = new Date().toLocaleDateString("en-US", options);
-// } catch(e) {
-//     alert("Error with code or your browser doesn't support Locale");
-// }
->>>>>>> 947c560375c9f8fa345ca5d38457db6a2eadb7c0

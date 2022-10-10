@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media only screen and(min-width: 60em){
     main{
         max-width: 770px;
@@ -14,3 +15,45 @@ h1{
 p{
     font-family: 'Inter Tight', sans-serif; 
 }
+=======
+a{
+    color: blue
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50em;
+}
+
+
+
+
+.forpic{
+    background-color: blue;
+    padding: 25px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+li{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+
+>>>>>>> 947c560375c9f8fa345ca5d38457db6a2eadb7c0
