@@ -1,4 +1,4 @@
- 
+/*  
 .footer{
 	display:flex;
 	flex-direction: column;
@@ -14,43 +14,49 @@ nav{
     background-color: #eee;
     display: flex;
     justify-content: left;
-}
+} */
+
+
 body{
-    font-family: 'Roboto', sans-serif;
+	/*background: radial-gradient(#eee, #4567aa);*/
+	font-family: 'Roboto', sans-serif;
 }
 
-h1{
-    float: left;
-}
-body {
-	padding: 0;
-	margin: 0;
-}
-
-header {
+/*Header Styles*/
+.topheader {
 	display:flex;
+	justify-content: space-between;
+	flex-direction: row;
 	background-color: #fff;
-	padding: 5px 0;
-	max-width: 900px;
-	margin: 0 auto;
+	margin: auto;
 	border-bottom: 1px solid #bbb;
 }
 
-.nfldpic {
+.headings{
 	display: flex;
-	align-items: center;
-	margin-left: 1rem;
+	justify-content: space-evenly;
 }
 
-.nfldpic img {
-	width: 80px;
-	height: auto;
-	padding: 5px;
-	margin: 5px;
+.links{
+	display: flex;
+	justify-content: space-between;
 }
+
+h5{
+	display: flex;
+	justify-content: flex-start;
+
+}
+
+.hamburger{
+	display:flex;
+	justify-content: flex-end;
+}
+/* 
 .headings h1 {
-	font-size: 1.5rem;
+	font-size: 1rem;
 }
+
 .navigation {
 	display: flex;
 }
@@ -66,47 +72,83 @@ header {
 	opacity: 0.7;
 }
 
-
-.hamburger{
-	float:left;
-	}
-
 .social{
 	padding: 5px;
-	height: 20px;
-	width: 20px;
+	height: auto;
+	width: auto;
 	float: right;
 }
+
 
 .navigation svg {
 	width: 25px;
 	height: auto;
 }
 
-.ocean{
-	position:100%;
-	top: 100px;
-	right: 50px;
-	background: radial-gradient(#eee, #4567aa);
-	border: 3px solid #000;
-	padding: 1.5rem;
-	box-shadow: 0 0 30px #333;
-	opacity: 0.8;
-	padding: .2rem;
+.social a img{
+	width: 40px;
+	height: 40px;
+} */ 
+
+
+
+/* 
+
+
+
+h1{
+    float: left;
+}
+
+h1{
 	float: center;
 }
 
-.centerpic{
-	padding: .5rem;
-	border:1px solid rgb(128, 0, 117);
+h2{
+	float: center;
 }
+
+
 .title{
 	display:flex;
 	justify-content: center;
 }
-.centerpic{
-	display:flex;
+
+.centerpic img{
+	float: center;
+}
+
+.hide{
+	display: none;
+}
+
+#monday-banner{
+	display: flex;
 	justify-content: center;
+}
+
+.information{
+	display: grid;
+	float:bottom;
+	float:right;
+}
+
+.hiking{
+	display: grid;
+	float: top;
+	float: right;
+}
+
+.fun{
+	display: grid;
+	float: top;
+	float: right;
+}
+
+.whales{
+	display: grid;
+	float: bottom;
+	float: right;
 }
 
 
@@ -117,5 +159,4 @@ header {
 
 
 
-
-
+ */

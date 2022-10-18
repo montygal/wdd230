@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) {
+/* @media only screen and (min-width: 1200px) {
 	header img {
 		width: 100%;
 	}
@@ -11,5 +11,130 @@
 	.m {
 		letter-spacing: 1.5pt;
 		font-size: 0.9rem;
+		display: grid;
+		float:inline start;
 	}
+
+	 
+.footer{
+	display:flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin-top: auto;
 }
+
+nav{
+    background-color: #eee;
+    display: flex;
+    justify-content: left;
+}
+body{
+		position:100%;
+		top: 100px;
+		right: 50px;
+		background: radial-gradient(#eee, #4567aa);
+		box-shadow: 0 0 30px #333;
+		opacity: 0.8;
+		padding: .2rem;
+		float: center;
+		font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    float: left;
+}
+
+
+header {
+	display:flex;
+	background-color: #fff;
+	padding: 5px 0;
+	max-width: 900px;
+	margin: 0 auto;
+	border-bottom: 1px solid #bbb;
+}
+
+.nfldpic {
+	display: flex;
+	align-items: center;
+	margin-left: 1rem;
+}
+
+.nfldpic img {
+	width: 80px;
+	height: auto;
+	padding: 5px;
+	margin: 5px;
+}
+.headings h1 {
+	font-size: 1rem;
+}
+
+h1{
+	float: center;
+}
+
+h2{
+	float: center;
+}
+
+.navigation {
+	display: flex;
+}
+
+.navigation a{
+	padding: 10px;
+	float: right;
+	
+}
+
+.navigation a:hover{
+	color: purple;
+	opacity: 0.7;
+}
+
+
+.hamburger{
+	float:left;
+	}
+
+.social{
+	padding: 5px;
+	height: auto;
+	width: auto;
+	float: right;
+}
+
+.navigation svg {
+	width: 25px;
+	height: auto;
+}
+
+
+
+
+.title{
+	display:flex;
+	justify-content: center;
+}
+.centerpic img{
+	float: center;
+}
+
+.social a img{
+	width: 40px;
+	height: 40px;
+}
+
+.hide{
+	display: none;
+}
+
+#monday-banner{
+	display: flex;
+	justify-content: center;
+}
+
+}
+
+ */

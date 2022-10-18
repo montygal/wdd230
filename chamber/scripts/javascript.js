@@ -42,4 +42,25 @@ let year = d.getFullYear();
 
 let fulldate = "Last modified date: " + (d.getMonth() + 1) + "/" + d.getDate()  + "/" + year;
 
-document.getElementById("currentdate").textContent = fulldate;
+document.getElementById("lastmodifieddate").textContent = fulldate;
+
+//get current date
+const date = new Date();
+
+//Grarb the day
+let dayOfTheWeek = date.getDay(); 
+//If the day is equal to Monday
+if (dayOfTheWeek == 1){
+    //print 'Come join us for the chamber meet on Wednesday's at 7:00p.m.'
+    document.getElementById("monday-banner").classList.remove("hide");
+}
+
+let currentDay = daynames[date.getDay()];
+
+let currentMonth = months[date.getMonth()];
+
+let currenYear = date.getFullYear();
+
+let todaysDate = "currentdate: " + (date.getMonth() + 1) + "/" + date.getDate()  + "/" + year;
+
+document.getElementById("currentdate").textContent = todaysDate;
