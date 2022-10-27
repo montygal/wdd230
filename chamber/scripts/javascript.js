@@ -51,6 +51,7 @@ const date = new Date();
 let dayOfTheWeek = date.getDay(); 
 //If the day is equal to Monday
 if (dayOfTheWeek == 1){
+    alert("Today is not monday ")
     //print 'Come join us for the chamber meet on Wednesday's at 7:00p.m.'
     document.getElementById("monday-banner").classList.remove("hide");
 }
@@ -64,3 +65,21 @@ let currenYear = date.getFullYear();
 let todaysDate = "currentdate: " + (date.getMonth() + 1) + "/" + date.getDate()  + "/" + year;
 
 document.getElementById("currentdate").textContent = todaysDate;
+
+
+//Find an element with the id of hamburger and save that element in a variable
+const hamburger = document.getElementById("hamburger")
+//Add an event listener to the element so it triggers a function when 
+//The user clicks on the element
+
+function toogleNavigation(){
+    //The fuction should do the following: 
+        //Find the navigation element and save it in a variable 
+        let navigation = document.getElementById("navigation")
+        // touggle the "hide" class from this element
+        navigation.classList.toggle("hide")
+}
+
+hamburger.addEventListener("click", toogleNavigation);
+
+    

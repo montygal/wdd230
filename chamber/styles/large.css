@@ -1,9 +1,38 @@
-/* @media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
 	header img {
 		width: 100%;
 	}
 
-	.headings h1 {
+
+	/*Pictures*/
+	.fun{
+		display: flex;
+		align-items: flex-start;
+		flex-direction: column;
+
+	}
+	.whales{
+		display: flex;
+		align-items:flex-start;
+		flex-direction: column;
+		
+	}
+
+	.hiking{
+		display: flex;
+		align-items: flex-end;
+		flex-direction: column;
+	}
+
+	.information{
+		display: flex;
+		align-items: flex-end;
+		flex-direction: column;
+	}
+
+
+}
+/*	.headings h1 {
 		font-size: 2rem;
 		margin: 0;
 	}
@@ -135,6 +164,4 @@ h2{
 	justify-content: center;
 }
 
-}
-
- */
+*/

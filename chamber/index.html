@@ -13,75 +13,117 @@
     </head>
     <body>
         <header>
-            <div class="topheader">
-                <div class="headings">
+            <div class="flex-header">
+                <section class="topheader">
                     <div class = "nfldpic">
                         <img src="images/nfld.jpg"alt="raindrop of Newfoundland"width="45"height="45"/>
+                        <h5>Where Adventure Begins!</h5>
                     </div>
-                    <h5>Where adventure begins!</h5>
-                </div>
-                <div class = "links">
+                </section>
+                <section class = "links">
                     <div class ="social">
-                        <a href ="https://facebook.com"> 
-                            <img src = "images/facebook.png" alt = "facebook icon"height = "15" width = "15">
-                        </a>
-                        <a href="https://twitter.com">  
-                            <img src = "images/twitter.png" alt = "twitter icon"height = "15"width = "15">
-                        </a>
+                            <a href ="https://facebook.com"> 
+                                <img src = "images/facebook.png" alt = "facebook icon"height = "15" width = "15">
+                            </a>
+                            <a href="https://twitter.com">  
+                                <img src = "images/twitter.png" alt = "twitter icon"height = "15"width = "15">
+                            </a>
+                        <button id = "hamburger">&#9776;</button>
                     </div>
-                    <div class = "hamburger"><button>&#9776;</button></div>
-                </div>
+                </section>
             </div>
-            
-               
-            <!-- <div class = "navigation">
+            <div id="navigation" class="hide">
                 <a href = "index.html">Home Page</a>
                 <a href = "targetaudience.html">Adventures</a>
                 <a href = "color-scheme.html">Fishing</a>
                 <a href = "typography.html">About Us</a>
-            </div> -->
-            <span id = "currentdate"></span>
+            </div>
         </header>
         <main>
-            <h1 id="monday-banner" class="hide">'Come join us for the chamber meet on Wednesday's at 7:00p.m.</h1>
+            <span id = "currentdate"></span>
+                    <h1 id="monday-banner" class="hide">Come join us for the chamber meet on Wednesday's at 7:00p.m.</h1>
             <section class = "ocean">
                 <div class = "title">
                     <h2>Welcome to Spaniard's Bay!</h2>
                 </div>
                 <div class = "centerpic">
-                    <img src = "images/spaniard'sbay.jpg"alt ="fishing village"height = "300"width = "300">
+                    <img src = "images/spaniard'sbay.jpg"alt ="fishing village"height = "200"width = "400">
                 </div>
+            </section>
+            <section class = "news">
+                <div class = "newsrelease">
+                    <h1>News Release!</h1>
+                </div>
+                <p>We've got some exciting things happening this winter!  Join us for:
+                    tobogganing, snow ball throwing contests, building snowmen and snow
+                    angels and ice skating on the lake.  Warm up afterwards with a cup
+                    of hot chocolate by our cozy fireplace and mingle in our commons
+                    with the other guests.</p>
             </section>
             <section class = "activities">
                 <div class = "fun">
                     <h2>Storm watching!</h2>
                     <div class = "waves">
-                        <img src = "images/waves.png"alt = "cartoon waves"width = "200" height = "200">
+                        <source srcset = "images/wavesmedium.png" media=(minwidth: 400px) and (maxwidth: 700px)>
+                        <source srcset = "images/waveslarge.png" media=(minwidth: 600px) and (max-width: 800px)>
+                        <img src = "images/wavessmall.png"alt = "cartoon waves"width = "100" height = "100">
                     </div>
                 </div> 
                 <div class = "whales">
                     <h2>Whale excursions!</h2>
-                    <div class = "whale watching">
-                        <img src = "images/whale.png"alt = "cartoon whale"width = "200" height = "200">
+                    <div class = "whalewatching">
+                        <source srcset = "images/whalemedium.png" media=(minwidth: 400px) and (maxwidth: 700px)>
+                        <source srcset = "images/whalelarge.png" media=(minwidth: 600px) and (max-width: 800px)>
+                        <img src = "images/whale.png"alt = "cartoon whale"width = "100" height = "100">
                     </div>
                 </div>
                 <div class = "hiking">
                     <h2>Take a hike!</h2>
                     <div class =  "hikingstick">
-                        <img src = "images/hiking.png"alt="male hiker"width = "200"height="200">
+                        <source srcset = "images/hikingmedium.png" media=(minwidth: 400px) and (maxwidth: 700px)>
+                        <source srcset = "images/hikinglarge.png" media=(minwidth: 600px) and (max-width: 800px)>
+                        <img src = "images/hiking.png"alt="male hiker"width = "100"height="100">
+                    </div>
+                </div>
+                <div class = "weather">
+                    <h2>Current Forecast:</h2>
+                    <div class = "sunny">
+                        <img src = "images/weather.png"alt="currentweatherforecast"width="100"height="100">
                     </div>
                 </div>
                 <div class = "information">
                     <h2>Learn more about us!</h2>
                     <div class = "info">
-                        <img src = "images/about us.png"alt = "i"width = "200"height = "200">
+                        <source srcset = "images/aboutusmedium.png" media=(minwidth: 400px) and (maxwidth: 700px)>
+                        <source srcset = "images/aboutuslarge.png" media=(minwidth: 600px) and (max-width: 800px)>
+                        <img src = "images/aboutussmall.png"alt = "i"width = "100"height = "100">
                     </div>
                 </div>
             </section>
         </main>   
     </body>
-    <footer>&copy: <em id = 'date'></em>2022 Newfoundland|Sariah Tanner|WDD 230 project| 
-        <span id = "lastmodifieddate"></span>
-        <script src="scripts/javascript.js"></script>
+   <footer>
+        <section class="bottomheader">
+            <div class = "newfoundland">
+                <div class = "logo">
+                    <img src="images/nfld.jpg"alt="raindrop of Newfoundland"width="45"height="45"/>
+                </div>
+                <p>Newfoundland Chamber of Commerce</p>
+                <p>464 Ocean Lane</p>
+                <p>Spaniard's Bay, NFLD</p>
+                <p>info@nfld.info</p>
+                <p>646-546-2061</p>
+            </div>
+        </section>
+        <section class = "align">
+            <div class = "copyright">
+                <p>&copy: <em id = 'date'></em>2022 Newfoundland</p>
+                <p>Sariah Tanner</p>
+                <p>WDD 230 project</p> 
+                <span id = "lastmodifieddate"></span>
+                <script src="scripts/javascript.js"></script>
+            </div>
+        </section>
     </footer>
 </html>
+

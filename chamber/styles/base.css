@@ -1,57 +1,159 @@
-/*  
-.footer{
-	display:flex;
-	flex-direction: column;
-	min-height: 100vh;
-	margin-top: auto;
-}
-
-.m{
-	display: grid;
-	float:inline-start;
-}
-nav{
-    background-color: #eee;
-    display: flex;
-    justify-content: left;
-} */
-
-
+/*Modifications to the body*/
 body{
-	/*background: radial-gradient(#eee, #4567aa);*/
+	background: radial-gradient(#eee, #4567aa);
 	font-family: 'Roboto', sans-serif;
 }
 
-/*Header Styles*/
-.topheader {
-	display:flex;
-	justify-content: space-between;
-	flex-direction: row;
-	background-color: #fff;
-	margin: auto;
-	border-bottom: 1px solid #bbb;
+.centerpic{
+	display: flex;
+	justify-content: center;
 }
 
-.headings{
+.title{
 	display: flex;
+	justify-content: center;
+}
+
+.news{
+	display: flex;
+	justify-content: center;
+	border: #8fbc8f;
+	padding: 16px;
+	background: radial-gradient(#eee, #8fbc8f);
+}
+
+h1{
+	display: flex;
+	align-items: center;
+}
+
+
+h2{
+	display: flex;
+	justify-content: center;
+}
+
+/*Page pictures in the body*/
+.waves{
+	display:flex;
+	justify-content: center;
+}
+
+.whalewatching{
+	display:flex;
+	justify-content: center;
+}
+
+.hikingstick{
+	display:flex;
+	justify-content: center;
+}
+
+.info{
+	display: flex;
+	justify-content: center;
+}
+
+.sunny{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+/*Header Styles*/
+header {
+	background-color: #fff;
+	margin: auto;
+	padding:16px;
+	background: radial-gradient(#eee, #8fbc8f);
+}
+
+.flex-header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.nfldpic{
+	display:flex;
+	text-align: center;
 	justify-content: space-evenly;
 }
 
 .links{
-	display: flex;
-	justify-content: space-between;
-}
-
-h5{
-	display: flex;
-	justify-content: flex-start;
-
-}
-
-.hamburger{
 	display:flex;
-	justify-content: flex-end;
+	justify-content: space-evenly;
 }
+	
+
+.hide{
+	display: none;
+}
+
+#monday-banner{
+	text-align: center;
+}
+
+.navigation{
+	display:flex;
+	flex-direction: column;
+}
+
+#currentdate{
+	display:flex;
+	justify-content: center;
+}
+
+
+/*Footer edits*/
+footer {
+	background-color: #fff;
+	margin: auto;
+	padding:16px;
+	background: radial-gradient(#eee, #8fbc8f);
+}
+
+.bottomheader{
+	display:flex;
+	justify-content: center;
+}
+
+.logo{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+
+/* .bottomfooter{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.date{
+	display:flex;
+	justify-content:center;
+}
+
+.socialmedia{
+	display:flex;
+	justify-content: right;
+}
+
+.newfoundland{
+	display: flex;
+	justify-content: left;
+}
+
+.lastmodifieddate{
+	display:flex;
+	justify-content: center;
+} */ 
+
+
+
 /* 
 .headings h1 {
 	font-size: 1rem;
