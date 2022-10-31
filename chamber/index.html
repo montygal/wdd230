@@ -7,9 +7,9 @@
         <title>Visit Newfoundland!</title>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="favicon.ico">
-        <link rel="stylesheet" href="styles/base.css">
-        <link rel="stylesheet" href="styles/large.css">
-        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="./styles/base.css">
+        <link rel="stylesheet" href="./styles/large.css">
+        <link rel="stylesheet" href="./styles/medium.css">
     </head>
     <body>
         <header>
@@ -61,20 +61,22 @@
                     with the other guests.</p>
             </section>
             <section class = "activities">
-                <div class = "fun">
-                    <h2>Storm watching!</h2>
-                    <div class = "waves">
-                        <source srcset = "images/wavesmedium.png" media=(minwidth: 400px) and (maxwidth: 700px)>
-                        <source srcset = "images/waveslarge.png" media=(minwidth: 600px) and (max-width: 800px)>
-                        <img src = "images/wavessmall.png"alt = "cartoon waves"width = "100" height = "100">
-                    </div>
-                </div> 
-                <div class = "whales">
-                    <h2>Whale excursions!</h2>
-                    <div class = "whalewatching">
-                        <source srcset = "images/whalemedium.png" media=(minwidth: 400px) and (maxwidth: 700px)>
-                        <source srcset = "images/whalelarge.png" media=(minwidth: 600px) and (max-width: 800px)>
-                        <img src = "images/whale.png"alt = "cartoon whale"width = "100" height = "100">
+                <div class = "spotlightsection">
+                    <div class = "fun">
+                        <h2>Storm watching!</h2>
+                        <div class = "waves">
+                            <source srcset = "images/wavesmedium.png" media=(minwidth: 400px) and (maxwidth: 700px)>
+                            <source srcset = "images/waveslarge.png" media=(minwidth: 600px) and (max-width: 800px)>
+                            <img src = "images/wavessmall.png"alt = "cartoon waves"width = "100" height = "100">
+                        </div>
+                    </div> 
+                    <div class = "whales">
+                        <h2>Whale excursions!</h2>
+                        <div class = "whalewatching">
+                            <source srcset = "images/whalemedium.png" media=(minwidth: 400px) and (maxwidth: 700px)>
+                            <source srcset = "images/whalelarge.png" media=(minwidth: 600px) and (max-width: 800px)>
+                            <img src = "images/whale.png"alt = "cartoon whale"width = "100" height = "100">
+                        </div>
                     </div>
                 </div>
                 <div class = "hiking">
@@ -85,11 +87,14 @@
                         <img src = "images/hiking.png"alt="male hiker"width = "100"height="100">
                     </div>
                 </div>
+                <div class = "bottompage">
                 <div class = "weather">
                     <h2>Current Forecast:</h2>
                     <div class = "sunny">
-                        <img src = "images/weather.png"alt="currentweatherforecast"width="100"height="100">
+                        <img src = "images/weather.webp"alt="currentweatherforecast"width="100"height="100">
                     </div>
+                    <p>Windchill:<span id="windchill"></span></p>
+
                 </div>
                 <div class = "information">
                     <h2>Learn more about us!</h2>
@@ -99,11 +104,12 @@
                         <img src = "images/aboutussmall.png"alt = "i"width = "100"height = "100">
                     </div>
                 </div>
+            </div>
             </section>
         </main>   
     </body>
    <footer>
-        <section class="bottomheader">
+            <div class = "mediumfooter">
             <div class = "newfoundland">
                 <div class = "logo">
                     <img src="images/nfld.jpg"alt="raindrop of Newfoundland"width="45"height="45"/>
@@ -114,16 +120,15 @@
                 <p>info@nfld.info</p>
                 <p>646-546-2061</p>
             </div>
-        </section>
-        <section class = "align">
             <div class = "copyright">
                 <p>&copy: <em id = 'date'></em>2022 Newfoundland</p>
                 <p>Sariah Tanner</p>
                 <p>WDD 230 project</p> 
                 <span id = "lastmodifieddate"></span>
                 <script src="scripts/javascript.js"></script>
+                <script src = "scripts/windchill.js"></script>
             </div>
-        </section>
+            </div>
     </footer>
 </html>
 
