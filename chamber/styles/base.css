@@ -122,7 +122,31 @@ footer {
 }
 
 
+/*Pictures in discover page*/
+.pictureone{
+	display: flex;
+	flex-direction: column;
+}
 
+.picturetwo{
+	display: flex;
+	flex-direction: column;
+}
+
+.picturethree{
+	display: flex;
+	flex-direction: column;
+}
+
+.picturefour{
+	display: flex;
+	flex-direction: column;
+}
+
+.picturefive{
+	display: flex;
+	flex-direction: column;
+}
 
 
 /* .bottomfooter{

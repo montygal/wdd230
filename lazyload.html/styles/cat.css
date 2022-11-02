@@ -1,0 +1,21 @@
+.one{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+}
+.four{
+    display: flex;
+    flex-direction: column;
+}
+.five{
+    display: flex;
+    flex-direction: column;
+}
