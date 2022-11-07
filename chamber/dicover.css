@@ -1,0 +1,8 @@
+.spacing{
+	display: flex;
+	justify-content: flex-end;
+}
+
+body{
+	background: radial-gradient(#eee, #4567aa);
+}
