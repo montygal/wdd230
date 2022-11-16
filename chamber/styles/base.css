@@ -41,13 +41,12 @@ h5{
 	justify-content: center;
 }
 
-
-
-
 #lastmodifieddate{
 	display: flex;
 	justify-content: center;
 }
+
+
 /*Page pictures in the body*/
 .waves{
 	display:flex;
@@ -87,6 +86,8 @@ h5{
 	display: flex;
 	justify-content: flex-start;
 }
+
+
 /*Header Styles*/
 header {
 	background-color: rgba(255, 255, 255, 0.908);
@@ -111,7 +112,6 @@ header {
 	justify-content: space-evenly;
 }
 	
-
 .hide{
 	display: none;
 }
@@ -177,138 +177,6 @@ footer {
 }
 
 
-/* .bottomfooter{
-	display: flex;
-	justify-content: space-evenly;
-}
-
-.date{
-	display:flex;
-	justify-content:center;
-}
-
-.socialmedia{
-	display:flex;
-	justify-content: right;
-}
-
-.newfoundland{
-	display: flex;
-	justify-content: left;
-}
-
-.lastmodifieddate{
-	display:flex;
-	justify-content: center;
-} */ 
 
 
 
-/* 
-.headings h1 {
-	font-size: 1rem;
-}
-
-.navigation {
-	display: flex;
-}
-
-.navigation a{
-	padding: 10px;
-	float: right;
-	
-}
-
-.navigation a:hover{
-	color: purple;
-	opacity: 0.7;
-}
-
-.social{
-	padding: 5px;
-	height: auto;
-	width: auto;
-	float: right;
-}
-
-
-.navigation svg {
-	width: 25px;
-	height: auto;
-}
-
-.social a img{
-	width: 40px;
-	height: 40px;
-} */ 
-
-
-
-/* 
-
-
-
-h1{
-    float: left;
-}
-
-h1{
-	float: center;
-}
-
-h2{
-	float: center;
-}
-
-
-.title{
-	display:flex;
-	justify-content: center;
-}
-
-.centerpic img{
-	float: center;
-}
-
-.hide{
-	display: none;
-}
-
-#monday-banner{
-	display: flex;
-	justify-content: center;
-}
-
-.information{
-	display: grid;
-	float:bottom;
-	float:right;
-}
-
-.hiking{
-	display: grid;
-	float: top;
-	float: right;
-}
-
-.fun{
-	display: grid;
-	float: top;
-	float: right;
-}
-
-.whales{
-	display: grid;
-	float: bottom;
-	float: right;
-}
-
-
-
-
-
-
-
-
-
- */
