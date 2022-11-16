@@ -13,26 +13,33 @@
 </head>
 <body>
     <header>
-    <section class = "links">
-        <div class ="social">
-                <a href ="https://facebook.com"> 
-                    <img src = "images/facebook.png" alt = "facebook icon"height = "15" width = "15">
-                </a>
-                <a href="https://twitter.com">  
-                    <img src = "images/twitter.png" alt = "twitter icon"height = "15"width = "15">
-                </a>
-            <button id = "hamburger">&#9776;</button>
+        <div class="flex-header">
+            <section class="topheader">
+                <div class = "nfldpic">
+                    <img src="images/nfld.jpg"alt="raindrop of Newfoundland"width="45"height="45"/>
+                    <h5>Where Adventure Begins!</h5>
+                </div>
+            </section>
+            <section class = "links">
+                <div class ="social">
+                        <a href ="https://facebook.com"> 
+                            <img src = "images/facebook.png" alt = "facebook icon"height = "15" width = "15">
+                        </a>
+                        <a href="https://twitter.com">  
+                            <img src = "images/twitter.png" alt = "twitter icon"height = "15"width = "15">
+                        </a>
+                    <button id = "hamburger">&#9776;</button>
+                </div>
+            </section>
         </div>
-    </section>
-</div>
-<div id="navigation" class="hide">
-    <a href = "index.html">Home Page</a>
-    <a href = "discover.html">Adventures</a>
-    <a href = "color-scheme.html">Colors</a>
-    <a href = "directory.html">About Us</a>
-</div>
-<h1>Discover Adventures!</h1>
-</header>
+        <div id="navigation" class="hide">
+            <a href = "index.html">Home Page</a>
+            <a href = "discover.html">Adventures</a>
+            <a href = "color-scheme.html">Colors</a>
+            <a href = "directory.html">About Us</a>
+        </div>
+        <span id = "currentdate"></span>
+    </header>
     <div class="pictureone">
         <h4>Come discover our small fishing towns!</h4>
             <img src="https://via.placeholder.com/300" data-src="./images/discoverone.jpg"alt="fishing town"width="300"height="400">
@@ -53,6 +60,6 @@
         <h4>Take in the amazing ocean views!</h4>
             <img src="https://via.placeholder.com/300"data-src="./images/discoverfive.jpg" alt="coastal views"width="300"height="400">
     </div>
-    <script src="scripts/discover.js"></script>
+    <script src="scripts/hamburger.js"></script>
 </body>
 </html>

@@ -13,24 +13,32 @@
 </head>
 <body>
     <header>
-        <section class = "links">
-            <div class ="social">
-                    <a href ="https://facebook.com"> 
-                        <img src = "images/facebook.png" alt = "facebook icon"height = "15" width = "15">
-                    </a>
-                    <a href="https://twitter.com">  
-                        <img src = "images/twitter.png" alt = "twitter icon"height = "15"width = "15">
-                    </a>
-                <button id = "hamburger">&#9776;</button>
-            </div>
-        </section>
-    <div id="navigation" class="hide">
-        <a href = "index.html">Home Page</a>
-        <a href = "discover.html">Adventures</a>
-        <a href = "color-scheme.html">Colors</a>
-        <a href = "directory.html">About Us</a>
-    </div>
-        <h1>Contributing Businesses</h1>
+        <div class="flex-header">
+            <section class="topheader">
+                <div class = "nfldpic">
+                    <img src="images/nfld.jpg"alt="raindrop of Newfoundland"width="45"height="45"/>
+                    <h5>Where Adventure Begins!</h5>
+                </div>
+            </section>
+            <section class = "links">
+                <div class ="social">
+                        <a href ="https://facebook.com"> 
+                            <img src = "images/facebook.png" alt = "facebook icon"height = "15" width = "15">
+                        </a>
+                        <a href="https://twitter.com">  
+                            <img src = "images/twitter.png" alt = "twitter icon"height = "15"width = "15">
+                        </a>
+                    <button id = "hamburger">&#9776;</button>
+                </div>
+            </section>
+        </div>
+        <div id="navigation" class="hide">
+            <a href = "index.html">Home Page</a>
+            <a href = "discover.html">Adventures</a>
+            <a href = "color-scheme.html">Colors</a>
+            <a href = "directory.html">About Us</a>
+        </div>
+        <span id = "currentdate"></span>
     </header> 
 <section class="whole">
     <div class="one">
@@ -82,7 +90,7 @@
     </div>
 </section>
 <footer>  
-    <script src="scripts/javascript.js"></script>
+    <script src="scripts/hamburger.js"></script>
 </footer>
 </body>
 </html>
