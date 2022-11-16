@@ -17,7 +17,7 @@ body{
 .news{
 	border: #8fbc8f;
 	padding: 16px;
-	background: radial-gradient(#eee, #8fbc8f);
+	background: radial-gradient(cyan, #62a0b092);
 }
 
 h1{
@@ -74,6 +74,10 @@ h5{
 	justify-content: center;
 }
 
+.airplane{
+	display: flex;
+	justify-content: center;
+}
 #windchill{
 	display: flex;
 	justify-content: center;
@@ -85,10 +89,10 @@ h5{
 }
 /*Header Styles*/
 header {
-	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0.908);
 	margin: auto;
 	padding:16px;
-	background: radial-gradient(#eee, #8fbc8f);
+	background: radial-gradient(rgb(28, 43, 130), #37176d6f);
 }
 
 .flex-header{
@@ -129,11 +133,11 @@ header {
 
 /*Footer edits*/
 footer {
-	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0.908);
 	margin: auto;
 	padding:16px;
-	background: radial-gradient(#eee, #8fbc8f);
-}
+	background: radial-gradient(rgb(28, 43, 130), #37176d6f);
+	}
 
 .bottomheader{
 	display:flex;

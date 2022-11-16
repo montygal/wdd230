@@ -34,68 +34,61 @@
             </div>
             <div id="navigation" class="hide">
                 <a href = "index.html">Home Page</a>
-                <a href = "targetaudience.html">Adventures</a>
+                <a href = "discover.html">Adventures</a>
                 <a href = "color-scheme.html">Fishing</a>
-                <a href = "discover.html">About Us</a>
+                <a href = "directory.html">About Us</a>
             </div>
+            <span id = "currentdate"></span>
         </header>
         <main>
-            <span id = "currentdate"></span>
-                    <h1 id="monday-banner" class="hide">Come join us for the chamber meet on Wednesday's at 7:00p.m.</h1>
-            <section class = "ocean">
-                <div class = "title">
-                    <h2>Welcome to Spaniard's Bay!</h2>
-                </div>
-                <div class = "centerpic">
-                    <img src = "images/spaniard'sbay.jpg"alt ="fishing village"height = "200"width = "400">
-                </div>
-            </section>
-            <section class = "news">
-                <div class = "newsrelease">
-                    <h1>News Release!</h1>
-                </div>
-                <p>We've got some exciting things happening this winter!  Join us for:
-                    tobogganing, snow ball throwing contests, building snowmen and snow
-                    angels and ice skating on the lake.  Warm up afterwards with a cup
-                    of hot chocolate by our cozy fireplace and mingle in our commons
-                    with the other guests.</p>
-            </section>
-            <section class = "activities">
-                <div class = "spotlightsection">
+            <h1 id="monday-banner" class="hide">Come join us for the chamber meet on Wednesday's at 7:00p.m.</h1>
+            <div class="maingrid" >
+                <section class = "ocean">
+                    <div class = "title">
+                        <h2>Welcome to Spaniard's Bay!</h2>
+                    </div>
+                    <div class = "centerpic">
+                        <img id= "firstpic"src = "images/spaniard'sbay.jpg"alt ="fishing village"height = "200"width = "900">
+                    </div>
+                </section>
+
+                <section class = "spotlight">
                     <div class = "fun">
                         <h2>Storm watching!</h2>
                         <div class = "waves">
-                            <source srcset = "images/wavesmedium.png" media=(minwidth: 400px) and (maxwidth: 700px)>
-                            <source srcset = "images/waveslarge.png" media=(minwidth: 600px) and (max-width: 800px)>
+                            <source srcset = "images/wavesmedium.png" media=(minwidth: 700px)>
+                            <source srcset = "images/waveslarge.png" media=(minwidth: 1200px>
                             <img src = "images/wavessmall.png"alt = "cartoon waves"width = "100" height = "100">
-                        </div>
-                    </div> 
+                        </div> 
+                    </div>
                     <div class = "whales">
                         <h2>Whale excursions!</h2>
                         <div class = "whalewatching">
-                            <source srcset = "images/whalemedium.png" media=(minwidth: 400px) and (maxwidth: 700px)>
-                            <source srcset = "images/whalelarge.png" media=(minwidth: 600px) and (max-width: 800px)>
+                            <source srcset = "images/whalemedium.png" media=(minwidth: 700px)>
+                            <source srcset = "images/whalelarge.png" media=(minwidth: 1200px)>
                             <img src = "images/whale.png"alt = "cartoon whale"width = "100" height = "100">
                         </div>
                     </div>
-                </div>
-                <div class = "hiking">
-                    <h2>Take a hike!</h2>
-                    <div class =  "hikingstick">
-                        <source srcset = "images/hikingmedium.png" media=(minwidth: 400px) and (maxwidth: 700px)>
-                        <source srcset = "images/hikinglarge.png" media=(minwidth: 600px) and (max-width: 800px)>
-                        <img src = "images/hiking.png"alt="male hiker"width = "100"height="100">
+                    <div class = "hiking">
+                        <h2>Take a hike!</h2>
+                        <div class =  "hikingstick">
+                            <source srcset = "images/hikingmedium.png" media=(minwidth: 700px)>
+                            <source srcset = "images/hikinglarge.png" media=(minwidth: 1200px)>
+                            <img src = "images/hiking.png"alt="male hiker"width = "100"height="100">
+                        </div>
                     </div>
-                </div>
-                <div class = "bottompage">
+                </section>
+
                 <div class = "weather">
                     <h2>Current Forecast:</h2>
                     <div class = "sunny">
+                        <source srcset = "images/weather.webp"media=(minwidth: 700px)>
+                        <source srcset = "images/weather.webp"media=(minwidth: 1200px)>
                         <img src = "images/weather.webp"alt="currentweatherforecast"width="100"height="100">
                     </div>
                     <h3>Windchill</h3><span id="windchill"></span></p>
-
                 </div>
+
                 <div class = "information">
                     <h2>Learn more about us!</h2>
                     <div class = "info">
@@ -104,8 +97,32 @@
                         <img src = "images/aboutussmall.png"alt = "i"width = "100"height = "100">
                     </div>
                 </div>
+
+                <div class = "joinus">
+                    <h2>Join Us!</h2>
+                    <div class =  "airplane">
+                        <source srcset = "images/hikingmedium.png" media=(minwidth: 700px)>
+                        <source srcset = "images/hikinglarge.png" media=(minwidth: 1200px)>
+                        <img src = "images/airplane.jpg"alt="male hiker"width = "100"height="100">
+                    </div>
+                </div>
+            
+                <section class = "news">
+                    <div class = "newsrelease">
+                        <h1>News Release!</h1>
+                    </div>
+                    <p>We've got some exciting things happening this winter!  Join us for:
+                        tobogganing, snow ball throwing contests, building snowmen and snow
+                        angels and ice skating on the lake.  Warm up afterwards with a cup
+                        of hot chocolate by our cozy fireplace and mingle in our commons
+                        with the other guests. Enjoy catching a trip on one of our boats to
+                        tour and see the whales. You might even see a puffin or two! The puffin
+                        is Newfoundland's bird. Don't forget that this is the prime time of
+                        the year for storm watching. The waves are beautiful, but keep your
+                        distance so you don't get swept away. The only sweeping away you'll
+                        get here is off your feet at the beauty our island has to offer.</p>
+                </section>
             </div>
-            </section>
         </main>   
     </body>
    <footer>
