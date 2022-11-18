@@ -7,7 +7,10 @@ body{
 .centerpic{
 	display: flex;
 	justify-content: center;
+	border: 2px solid white;
+	border-radius: 1px;
 }
+
 
 .title{
 	display: flex;
