@@ -1,0 +1,59 @@
+{
+    "contributors": [
+        {
+            "name": "Veterinary Services", 
+            "phone": "123-123-1234",
+            "address": "Veterinary Lane",
+            "image_path": "images/busimages/businesscardone.jpg"
+        },
+        {
+            "name": "Local Whale Tourism",
+            "phone": "123-123-1234",
+            "address": "1234 Whale Watching Lane",
+            "image_path": "images/busimages/businesscardtwo.jpg"
+
+        },
+        {   "name": "Tours Around the Island",
+            "phone": "123-123-1234",
+            "address": "1234 Tour Lane",
+            "image_path": "images/busimages/businesscardthree.jpg"
+
+        },
+        {
+            "name": "Ocean Adventures",
+            "phone": "123-123-1234",
+            "address": "1234 Ocean Lane",
+            "image_path": "images/busimages/businesscardfour.jpg"
+        },
+        {   "name": "Weather Speculation",
+            "phone": "123-123-1234",
+            "address": "1234 Weather Lane",
+            "image_path": "images/busimages/businesscardfive.jpg"
+            
+        },
+        {
+            "name": "Memberships",
+            "phone": "123-123-1234",
+            "address": "1234 Membership Lane",
+            "image_path": "images/busimages/businesscardsix.jpg"
+        },
+        {
+            "name": "Hiking",
+            "phone": "123-123-1234",
+            "address": "1234 Hiking Lane",
+            "image_path": "images/busimages/businesscardseven.jpg"
+        },
+        {
+            "name": "Local Information",
+            "phone": "123-123-1234",
+            "address": "1234 Information Lane",
+            "image_path": "images/busimages/businesscardeight.jpg"
+        },
+        {
+            "name": "Landscaping",
+            "phone": "123-123-1234",
+            "address": "1234 Landscaping Lane",
+            "image_path": "images/busimages/businesscardnine.jpg"
+        }
+    ]
+}
