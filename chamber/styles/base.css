@@ -59,6 +59,17 @@ h5{
 
 }
 
+/*Modifications to the join page*/
+.submit{
+	padding: 10px;
+}
+
+
+.medals{
+	display:grid;
+	grid-template-columns: 1fr;
+	justify-content: right;	
+}
 
 /*Page pictures in the body*/
 .waves{
@@ -81,8 +92,13 @@ h5{
 	justify-content: center;
 }
 
-.sunny{
-	display: flex;
+.temperature{
+	display:flex;
+	justify-content: center;
+}
+
+.currently{
+	display:flex;
 	justify-content: center;
 }
 
