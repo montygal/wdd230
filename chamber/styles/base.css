@@ -60,15 +60,6 @@ h5{
 	justify-content: center;
 }
 
-.cards{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-}
-
-.card h2{
-	justify-content: left;
-
-}
 
 /*Modifications to the join page*/
 .submit{
