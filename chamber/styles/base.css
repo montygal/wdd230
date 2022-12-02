@@ -5,6 +5,16 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
+.temp{
+	display:flex;
+	justify-content: center;
+}
+
+.temp2{
+	display:flex;
+	justify-content: center;
+}
+
 .centerpic{
 	display: flex;
 	justify-content: center;
