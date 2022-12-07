@@ -2,7 +2,7 @@ const temperature = document.querySelector('#temperature');
 const description = document.querySelector('#currently');
 const weathericon = document.querySelector('#weathericon');
 const caption = document.querySelector('figcaption');
-const apiURL='https://api.openweathermap.org/data/2.5/weather?q=AOA&units=imperial&APPID=ce3ac5b533f9c34cc23975fa9d566bf8';
+const apiURL='https://api.openweathermap.org/data/2.5/weather?q=92008&units=imperial&APPID=ce3ac5b533f9c34cc23975fa9d566bf8';
 
 async function apiFetch() {
     try {
@@ -30,5 +30,4 @@ async function apiFetch() {
     temperature.textContent = data.main.temp.toFixed(0);
     description.textContent = capitalize(data.weather[0].description);
     caption.textContent = data.weather[0].description;
-    weathericon.src = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
-  }
+    weathericon.src = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;}

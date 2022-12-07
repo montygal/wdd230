@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bountiful Foods!</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styles/base.css">
+        <link rel="stylesheet" href="./styles/large.css">
+        <link rel="stylesheet" href="./styles/medium.css">
+    </head>
+    <body>
+        <header>
+            <div class="flex-header">
+                <section class="topheader">
+                        <h5>Welcome to Bountiful Foods!</h5>
+                </section>
+                <section class = "links">
+                    <div class ="facebook">
+                        <a href ="https://facebook.com"> 
+                            <img src = "images/facebook.png" alt = "facebook icon"height = "25" width = "25">
+                        </a>
+                    </div>
+                    <div class="twitter">
+                        <a href="https://twitter.com">  
+                            <img src = "images/twitter.png" alt = "twitter icon"height = "25"width = "25">
+                        </a>
+                    </div>
+                    <div class = "instagram">
+                        <a href="https://instagram.com">  
+                            <img src = "images/instagram.png" alt = "instagram icon"height = "25"width = "25">
+                        </a>
+                    </div>
+                </section>
+            </div>
+            <div id="navigation">
+                <a href = "index.html">Home Page</a>
+                <a href = "fresh.html">Discover</a>
+                <a href = "order.html">Order</a>
+              </div>
+        </header>
+        <main>
+            <div class="maingrid" >
+                <section class = "ocean">
+                    <div class = "title">
+                        <h2>Welcome to Bountiful Foods!</h2>
+                    </div>
+                    <div class = "centerpic">
+                        <img id= "firstpic"src = "images/strawberry.jpg"alt ="fresh strawberries"height = "400"width = "800">
+                    </div>
+                </section>
+
+                <section class = "featured">
+                    <div class = "strawberry">
+                        <h2>Featured Smoothies</h2>
+                        <div class = "freshstrawberry">
+                            <source srcset = "images/healthysmoothie.jpg" media=(minwidth: 700px)>
+                            <source srcset = "images/healthysmoothie.jpg" media=(minwidth: 1200px>
+                            <img src = "images/healthysmoothie.jpg"alt = "cartoon waves"width = "100" height = "100">
+                        </div> 
+                        <h3>Strawberry Bliss</h3>
+                    </div>
+                    <div class = "mango">
+                        <div class = "mangosmoothie">
+                            <source srcset = "images/mangosmoothie.jpg" media=(minwidth: 700px)>
+                            <source srcset = "images/mangosmoothie.jpg" media=(minwidth: 1200px)>
+                            <img src = "images/mangosmoothie.jpg"alt = "cartoon whale"width = "100" height = "100">
+                        </div>
+                        <h3>Mango Madness</h3>
+                    </div>
+                    <div class = "green">
+                        <div class =  "greengoodness">
+                            <source srcset = "images/greengoodness.jpg" media=(minwidth: 700px)>
+                            <source srcset = "images/greengoodness.jpg" media=(minwidth: 1200px)>
+                            <img src = "images/greengoodness.jpg"alt="male hiker"width = "100"height="100">
+                        </div>
+                        <h3>Green Goodness</h3>
+                    </div>
+                </section>
+
+                <section class = "weather">
+                    <h2>Current Weather</h2>
+                        <div class = "temp">
+                        <p> <span id="temperature"></span> &deg;F</p>
+                        <p> <span id ="currently"></span></span></p>
+                            <div class ="temp2">
+                                <figure>
+                                <img src="" alt="" id="weathericon" />
+                                <figcaption></figcaption>
+                                </figure>
+                            </div>
+                        </section>
+            
+                <section class = "news">
+                    <div class = "newsrelease">
+                        <h1>Fresh Fruit For All!</h1>
+                    </div>
+                    <p>Our journey started 50 years ago when John Phillips decided 
+                        he wanted to make eating healthy a personal journey and discovered
+                        his love of fresh fruits and veggies. He wanted to share what 
+                        he had learned with anyone who had a desire to live a healthier lifestyle,
+                        and that is how Bountiful Foods started. We start by finding the freshest fruits
+                        and vegetables from local farmers here in California, and then let you customize
+                        your favorites for unique smoothies that have gained popularity with over 1000
+                        individuals right here in Calsvad and in the surrounding area. What started
+                        as one man's journey has led to a successful and healthy way to boost your energy
+                        in the morning. We package and freeze your special request, so that all you need to
+                        do is put it in the blender for a quick and easy breakfast. Take a look at our
+                        options and customize your smoothies today!
+                    </p>
+                </section>
+        </main>   
+    </body>
+   <footer>
+            <div class = "mediumfooter">
+                <h5>Bountiful Foods</h5>
+                <h5>323 Fresh Fruit Lane</h5>
+                <h5>Carlsbad, CA</h5>
+                <h5>info@fruit.info</h5>
+                <h5>385-654-5676</h5>
+            </div>
+            <div class = "copyright">
+                <h5>&copy: <em id = 'date'></em>2022 Bountiful Foods</h5>
+                <h5>Sariah Tanner</h5>
+                <h5>WDD 230 project</h5> 
+                <span id = "lastmodifieddate"></span>
+                <script src="scripts/javascript.js"></script>
+                <script src = "scripts/weather.js"></script>
+            </div>
+    </footer>
+</html>

@@ -1,6 +1,6 @@
 /*Modifications to the body*/
 body{
-	background: radial-gradient(#eee, #4567aa);
+	background: radial-gradient(#eee, #6ef08e);
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -17,8 +17,6 @@ body{
 .centerpic{
 	display: flex;
 	justify-content: center;
-	border: 2px solid white;
-	border-radius: 1px;
 }
 
 
@@ -28,11 +26,17 @@ body{
 }
 
 .news{
+    display:flex;
 	border: #8fbc8f;
 	padding: 16px;
 	background: radial-gradient(cyan, #62a0b092);
+    justify-content: center;
 }
 
+.newrelease{
+    display:flex;
+    justify-content: center;
+}
 h1{
 	display: flex;
 	justify-content: center;
@@ -59,31 +63,58 @@ h5{
 	justify-content: center;
 }
 
+.links{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
+.facebook{
+    display:flex;
+    flex-direction: row;
+    padding:10px;
+}
+
+.twitter{
+    display:flex;
+    flex-direction: row;
+    padding:10px;
+}
+
+.instagram{
+    display:flex;
+    flex-direction: row;
+    padding:10px;
+}
 /*Modifications to the join page*/
 .submit{
 	padding: 10px;
 }
 
-
-.medals{
-	display:grid;
-	grid-template-columns: 1fr;
-	justify-content: right;	
+.weather{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: right;	
 }
 
+.featured{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: left;
+}
 /*Page pictures in the body*/
-.waves{
+
+.strawberry{
 	display:flex;
 	justify-content: center;
 }
 
-.whalewatching{
+.mango{
 	display:flex;
 	justify-content: center;
 }
 
-.hikingstick{
+.green{
 	display:flex;
 	justify-content: center;
 }
@@ -107,10 +138,6 @@ h5{
 	display: flex;
 	justify-content: center;
 }
-#windchill{
-	display: flex;
-	justify-content: center;
-}
 
 .pictureone{
 	display: flex;
@@ -123,7 +150,7 @@ header {
 	background-color: rgba(255, 255, 255, 0.908);
 	margin: auto;
 	padding:16px;
-	background: radial-gradient(rgb(28, 43, 130), #37176d6f);
+	background: radial-gradient(rgb(184, 227, 83), #37176d6f);
 }
 
 .flex-header{
@@ -136,21 +163,7 @@ header {
 	text-align: center;
 	justify-content: space-evenly;
 }
-
-.links{
-	display:flex;
-	justify-content: space-evenly;
-}
 	
-.hide{
-	display: none;
-}
-
-
-
-#monday-banner{
-	text-align: center;
-}
 
 .navigation{
 	display:flex;
@@ -165,22 +178,16 @@ header {
 }
 
 #navigation a:hover{
-	background-color: #4567aa;
+	background-color: #0a3b2e;
     color: white;
 }
-
-#currentdate{
-	display:flex;
-	justify-content: center;
-}
-
 
 /*Footer edits*/
 footer {
 	background-color: rgba(255, 255, 255, 0.908);
 	margin: auto;
 	padding:16px;
-	background: radial-gradient(rgb(28, 43, 130), #37176d6f);
+	background: radial-gradient(rgb(184, 227, 83), #37176d6f);
 	}
 
 .bottomheader{
@@ -188,13 +195,20 @@ footer {
 	justify-content: center;
 }
 
-.logo{
-	display: flex;
-	justify-content: center;
+.mediumfooter{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.copyright{
+    display:flex;
+    flex-direction: column;
+    justify-content: right;
 }
 
 
-/*Pictures in discover page*/
+/*Pictures in fresh page*/
 .pictureone{
 	display: flex;
 	flex-direction: column;
@@ -215,10 +229,7 @@ footer {
 	flex-direction: column;
 }
 
-.picturefive{
-	display: flex;
-	flex-direction: column;
-}
+
 
 
 

@@ -1,0 +1,22 @@
+
+@media only screen and (min-width: 700px) {
+	header img {
+		width: 100%;
+	}
+
+
+.spotlightsection{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.bottompage{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.mediumfooter{
+	display: flex;
+	justify-content: space-evenly;
+}
+}
