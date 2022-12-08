@@ -3,24 +3,12 @@ body{
 	background: radial-gradient(#eee, #6ef08e);
 	font-family: 'Roboto', sans-serif;
 }
-
-.temp{
-	display:flex;
-	justify-content: center;
-}
-
-.temp2{
-	display:flex;
-	justify-content: center;
-}
-
 .centerpic{
 	display: flex;
 	justify-content: center;
 }
 
-
-.title{
+.title h2{
 	display: flex;
 	justify-content: center;
 }
@@ -37,11 +25,11 @@ body{
     display:flex;
     justify-content: center;
 }
+
 h1{
 	display: flex;
 	justify-content: center;
 }
-
 
 h2{
 	display: flex;
@@ -50,17 +38,41 @@ h2{
 
 h3{
 	display: flex;
-	justify-content: center;
+	justify-content: right;
 }
 
 h5{
 	display: flex;
 	justify-content: center;
 }
+/*Header Styles*/
+header {
+	background-color: rgba(255, 255, 255, 0.908);
+	margin: auto;
+	padding:16px;
+	background: radial-gradient(rgb(184, 227, 83), #37176d6f);
+}
 
-#lastmodifieddate{
+.flex-header{
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
+}
+	
+.navigation{
+	display:flex;
+	flex-direction: column;
+}
+
+#navigation a{
+	background-color: #8fbc8f;
+    color: red;
+	text-decoration: none;
+	padding: 10px;
+}
+
+#navigation a:hover{
+	background-color: #0a3b2e;
+    color: white;
 }
 
 .links{
@@ -86,42 +98,11 @@ h5{
     flex-direction: row;
     padding:10px;
 }
-/*Modifications to the join page*/
-.submit{
-	padding: 10px;
-}
-
+/*Modifications to the home page pictures*/
 .weather{
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: right;	
-}
-
-.featured{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: left;
-}
-/*Page pictures in the body*/
-
-.strawberry{
-	display:flex;
-	justify-content: center;
-}
-
-.mango{
-	display:flex;
-	justify-content: center;
-}
-
-.green{
-	display:flex;
-	justify-content: center;
-}
-
-.info{
-	display: flex;
-	justify-content: center;
+       display:flex;
+	   flex-direction: column;
+	   justify-content: left;
 }
 
 .temperature{
@@ -134,80 +115,35 @@ h5{
 	justify-content: center;
 }
 
-.airplane{
-	display: flex;
-	justify-content: center;
-}
-
-.pictureone{
-	display: flex;
-	justify-content: flex-start;
-}
-
-
-/*Header Styles*/
-header {
-	background-color: rgba(255, 255, 255, 0.908);
-	margin: auto;
-	padding:16px;
-	background: radial-gradient(rgb(184, 227, 83), #37176d6f);
-}
-
-.flex-header{
-	display: flex;
-	justify-content: space-between;
-}
-
-.nfldpic{
-	display:flex;
-	text-align: center;
-	justify-content: space-evenly;
-}
-	
-
-.navigation{
-	display:flex;
-	flex-direction: column;
-}
-
-#navigation a{
-	background-color: #8fbc8f;
-    color: red;
-	text-decoration: none;
-	padding: 10px;
-}
-
-#navigation a:hover{
-	background-color: #0a3b2e;
-    color: white;
-}
-
-/*Footer edits*/
-footer {
-	background-color: rgba(255, 255, 255, 0.908);
-	margin: auto;
-	padding:16px;
-	background: radial-gradient(rgb(184, 227, 83), #37176d6f);
-	}
-
-.bottomheader{
+.temp{
 	display:flex;
 	justify-content: center;
 }
 
-.mediumfooter{
-    display:flex;
-    flex-direction: column;
-    justify-content: left;
+.temp2{
+	display:flex;
+	justify-content: center;
 }
 
-.copyright{
-    display:flex;
-    flex-direction: column;
-    justify-content: right;
+.featured h2{
+	display:flex;
+	justify-content: right;
 }
 
+.freshstrawberry{
+	display:flex;
+	justify-content: right;
+}
 
+.mangosmoothie{
+	display:flex;
+	justify-content: right;
+}
+
+.greengoodness{
+	display:flex;
+	justify-content: right;
+}
 /*Pictures in fresh page*/
 .pictureone{
 	display: flex;
@@ -228,6 +164,36 @@ footer {
 	display: flex;
 	flex-direction: column;
 }
+/*Order page*/
+.submit{
+	padding: 10px;
+}
+
+/*Footer edits*/
+footer {
+	background-color: rgba(255, 255, 255, 0.908);
+	margin: auto;
+	padding:16px;
+	background: radial-gradient(rgb(184, 227, 83), #37176d6f);
+	}
+
+.mediumfooter{
+	display:flex;
+	flex-direction: column;
+    justify-content: left;
+}
+
+.copyright{
+	display:flex;
+	flex-direction: column;
+    justify-content: right;
+}
+
+#lastmodifieddate{
+	display:flex;
+	justify-content: center;
+}
+
 
 
 

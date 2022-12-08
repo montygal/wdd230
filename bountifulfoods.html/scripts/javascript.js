@@ -40,16 +40,8 @@ document.getElementById("lastmodifieddate").textContent = fulldate;
 //get current date
 const date = new Date();
 
-//Grarb the day
+//Grab the day
 let dayOfTheWeek = date.getDay(); 
-//If the day is equal to Monday
-if (dayOfTheWeek == 1){
-    alert("Today is not monday ")
-    print('Come join us for the chamber meet on Wednesday\s at 7:00p.m.')
-    document.getElementById("monday-banner").classList.remove("hide");
-
-}
-
 
 let currentDay = daynames[date.getDay()];
 

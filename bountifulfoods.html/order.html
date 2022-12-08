@@ -44,7 +44,7 @@
             <section class="form">
                 <div class="status"h1>Mix your own custom smoothie!</h1></div>
                 <p></p>
-                <form action="/action_page.php">
+                <form id="fruit">
                     <label for="fname">First name:</label><br>
                     <input type="name"id="name"name="name"required><br>
                     <label for="email">Email</label><br>
@@ -61,9 +61,9 @@
                     <input type="checkbox" id="bananas" name="bananas" value="bananas">
                     <label for="option3">Bananas</label><br>
                     <input type="checkbox"id="blueberry"name="blueberry"value="blueberry">
-                    <label for="option4">Blueberry</label><br><br>
+                    <label for="option4">Blueberrys</label><br><br>
                     <input type="checkbox"id="avocado"name="avocado"value="avocado">
-                    <label for="option5">Avocado</label><br><br>
+                    <label for="option5">Avocados</label><br><br>
                     <p></p>
                     <p><label for="business review">Special Instructions</label></p>
                     <textarea id="special instructions" name="special instructions" rows="4" cols="50"></textarea><br>
@@ -101,6 +101,9 @@
             </section>
         </div>
     </body>
+    <div>
+        <h1 id="submittedName"></h1>
+    </div>
     <footer>
         <div class = "mediumfooter">
             <h5>Bountiful Foods</h5>
@@ -115,6 +118,7 @@
             <h5>WDD 230 project</h5> 
             <span id = "lastmodifieddate"></span>
             <script src="scripts/javascript.js"></script>
+            <script src="scripts/fruit.js"></script>
         </div>
 </footer>
 </html>
