@@ -54,12 +54,19 @@ h5{
 	justify-content: center;
 }
 
+#lastvisiteddate{
+	display:flex;
+	justify-content: center;
+}
+
 #lastmodifieddate{
 	display: flex;
 	justify-content: center;
 }
 
-
+.hide{
+	display: none;
+}
 /*Modifications to the join page*/
 .submit{
 	padding: 10px;
@@ -141,9 +148,18 @@ header {
 	display:flex;
 	justify-content: space-evenly;
 }
-	
-.hide{
-	display: none;
+
+
+.facebook{
+    display:flex;
+    flex-direction: row;
+    padding:10px;
+}
+
+.twitter{
+    display:flex;
+    flex-direction: row;
+    padding:10px;
 }
 
 
@@ -155,6 +171,7 @@ header {
 .navigation{
 	display:flex;
 	flex-direction: column;
+	flex-shrink: 0;
 }
 
 #navigation a{
@@ -162,11 +179,13 @@ header {
     color: red;
 	text-decoration: none;
 	padding: 10px;
+	flex-shrink:0;
 }
 
 #navigation a:hover{
 	background-color: #4567aa;
     color: white;
+	flex-shrink:0;
 }
 
 #currentdate{

@@ -23,10 +23,10 @@
                 <section class = "links">
                     <div class ="social">
                             <a href ="https://facebook.com"> 
-                                <img src = "images/facebook.png" alt = "facebook icon"height = "15" width = "15">
+                                <img src = "images/facebook.png" alt = "facebook icon"height = "35" width = "10">
                             </a>
                             <a href="https://twitter.com">  
-                                <img src = "images/twitter.png" alt = "twitter icon"height = "15"width = "15">
+                                <img src = "images/twitter.png" alt = "twitter icon"height = "35"width = "10">
                             </a>
                         <button id = "hamburger">&#9776;</button>
                     </div>
@@ -44,7 +44,6 @@
         <div class = "content">
             <section class="form">
                 <div class="status"h1>Membership Status</h1></div>
-                <form action="/action_page.php">
                     <label for="fname">First name:</label><br>
                     <input type="text" id="fname" name="fname" required><br>
                     <label for="lname">Last name:</label><br>
@@ -53,13 +52,13 @@
                     <input type="text" id="business" name="business position"><br>
                     <label for="email">Email</label><br>
                     <input type="email"id="email" name="email" required><br>
-                    <label for="phone number">Telephone Number</label><br>
-                    <input type="tel" id="phone number"name="phone number" required><br>
-                    <label for="business name">Business Name</label><br>
-                    <input type="text" id="business name"name="business name" required><br>
-                    <p><label for="business review">Tell us about your business!</label></p>
-                    <textarea id="business review" name="businessreview" rows="4" cols="50"></textarea><br>
-                    <label for="membership level">Choose your Membership</label><br>
+                    <label for="phone_number">Telephone Number</label><br>
+                    <input type="tel" id="phone_number"name="phone_number" required><br>
+                    <label for="business_name">Business Name</label><br>
+                    <input type="text" id="business_name"name="business_name" required><br>
+                    <p><label for="business_review">Tell us about your business!</label></p>
+                    <textarea id="business_review" name="business_review" rows="4" cols="50"></textarea><br>
+                    <label for="membership_level">Choose your Membership</label><br>
                     <input type="checkbox" id="nonprofit" name="nonprofit" value="nonprofit">
                     <label for="option1">Non Profit Membership</label><br>
                     <input type="checkbox" id="bronze" name="bronze" value="bronze">
@@ -68,7 +67,7 @@
                     <label for="option3">Silver Medal Membership</label><br>
                     <input type="checkbox"id="gold"name="gold"value="gold">
                     <label for="option4">Gold Medal Membership</label><br><br>
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="submit">
                 </form> 
             </section>
             <section class = "medals">
@@ -98,8 +97,36 @@
                 </div>
             </section>
         </div>
-    <script src="scripts/hamburger.js"></script>
+        <h1 id="fname"></h1>
+        <h1 id ="lname"></h1>
+        <h1 id="email"></h1>
+        <h1 id="phone_number"></h1>
+        <h1 id="business_name"></h1>
+        <h1 id="business_review"></h1>
     </body>
+    <footer>
+        <div class = "mediumfooter">
+        <div class = "newfoundland">
+            <div class = "logo">
+                <img src="images/nfld.jpg"alt="raindrop of Newfoundland"width="200"height="100">
+            </div>
+            <h5>Newfoundland Chamber of Commerce</h5>
+            <h5>464 Ocean Lane</h5>
+            <h5>Spaniard's Bay, NFLD</h5>
+            <h5>info@nfld.info</h5>
+            <h5>646-546-2061</h5>
+        </div>
+        <div class = "copyright">
+            <h5>&copy: <em id = 'date'></em>2022 Newfoundland</h5>
+            <h5>Sariah Tanner</h5>
+            <h5>WDD 230 project</h5> 
+            <span id = "lastmodifieddate"></span>
+                <script src="scripts/javascript.js"></script>
+                <script src = "scripts/data.js"></script>
+                <script src = "scripts/hamburger.js"></script>
+                <script src = "scripts/thankyou.js"></script>
+        </div>
+</footer>
 </html>
    
         

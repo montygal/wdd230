@@ -11,40 +11,64 @@
     <link rel="stylesheet" href="./styles/large.css">
     <link rel="stylesheet" href="./styles/medium.css">
 </head>
-    <header>
-        <div class="flex-header">
-            <section class="topheader">
-                <div class = "nfldpic">
-                    <img src="images/nfld.jpg"alt="raindrop of Newfoundland"width="45"height="45"/>
-                    <h5>Where Adventure Begins!</h5>
-                </div>
-            </section>
-            <section class = "links">
-                <div class ="social">
-                        <a href ="https://facebook.com"> 
-                            <img src = "images/facebook.png" alt = "facebook icon"height = "15" width = "15">
-                        </a>
-                        <a href="https://twitter.com">  
-                            <img src = "images/twitter.png" alt = "twitter icon"height = "15"width = "15">
-                        </a>
-                    <button id = "hamburger">&#9776;</button>
-                </div>
-            </section>
-        </div>
-        <div id="navigation" class="hide">
-            <a href = "index.html">Home Page</a>
-            <a href = "discover.html">Adventures</a>
-            <a href = "joins.html">Membership</a>
-            <a href = "directory.html">About Us</a>
-            <a href = "contact.html">Contact Info</a>
-        </div>
-        </header>
+<header>
+    <div class="flex-header">
+        <section class="topheader">
+            <div class = "nfldpic">
+                <img src="images/nfld.jpg"alt="raindrop of Newfoundland"width="45"height="125"/>
+                <h5>Where Adventure Begins!</h5>
+            </div>
+        </section>
+        <section class = "links">
+            <div class ="social">
+                    <a href ="https://facebook.com"> 
+                        <img src = "images/facebook.png" alt = "facebook icon"height = "35" width = "10">
+                    </a>
+                    <a href="https://twitter.com">  
+                        <img src = "images/twitter.png" alt = "twitter icon"height = "35"width = "10">
+                    </a>
+                <button id = "hamburger">&#9776;</button>
+            </div>
+        </section>
+    </div>
+    <div id="navigation" class="hide">
+        <a href = "index.html">Home Page</a>
+        <a href = "discover.html">Adventures</a>
+        <a href = "joins.html">Membership</a>
+        <a href = "directory.html">About Us</a>
+        <a href = "contact.html">Contact Info</a>
+    </div>
+    <span id = "currentdate"></span>
+</header>
         <body>
             <p>Contact us through:</p>
             <p>Phone: 888-888-8888</p>
             <p>Email: spaniardsbay@gmail.com</p>
-            <p><label for="business review">Let us know what you think!</label></p>
+            <p><label for="business review">Do you have any suggestions or comments for us? Please let us know in the area below!</label></p>
             <textarea id="business review" name="businessreview" rows="4" cols="50"></textarea><br>
-            <script src="scripts/hamburger.js"></script>
+            <input type="submit" value="submit">
         </body>
+        <footer>
+            <div class = "mediumfooter">
+            <div class = "newfoundland">
+                <div class = "logo">
+                    <img src="images/nfld.jpg"alt="raindrop of Newfoundland"width="200"height="100">
+                </div>
+                <h5>Newfoundland Chamber of Commerce</h5>
+                <h5>464 Ocean Lane</h5>
+                <h5>Spaniard's Bay, NFLD</h5>
+                <h5>info@nfld.info</h5>
+                <h5>646-546-2061</h5>
+            </div>
+            <div class = "copyright">
+                <h5>&copy: <em id = 'date'></em>2022 Newfoundland</h5>
+                <h5>Sariah Tanner</h5>
+                <h5>WDD 230 project</h5> 
+                <span id = "lastmodifieddate"></span>
+                <script src="scripts/javascript.js"></script>
+                <script src = "scripts/data.js"></script>
+                <script src="scripts/hamburger.js"></script>
+            </div>
+            </div>
+    </footer>
 </html>

@@ -49,6 +49,6 @@ let currentMonth = months[date.getMonth()];
 
 let currenYear = date.getFullYear();
 
-let todaysDate = "currentdate: " + (date.getMonth() + 1) + "/" + date.getDate()  + "/" + year;
+let todaysDate = "orderdate: " + (date.getMonth() + 1) + "/" + date.getDate()  + "/" + year;
 
-document.getElementById("currentdate").textContent = todaysDate;
+document.getElementById("orderdate").textContent = todaysDate;

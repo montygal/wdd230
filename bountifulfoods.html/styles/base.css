@@ -3,9 +3,12 @@ body{
 	background: radial-gradient(#eee, #6ef08e);
 	font-family: 'Roboto', sans-serif;
 }
+
 .centerpic{
 	display: flex;
 	justify-content: center;
+	border: 2px solid white;
+	border-radius: 1px;
 }
 
 .title h2{
@@ -18,11 +21,6 @@ body{
 	border: #8fbc8f;
 	padding: 16px;
 	background: radial-gradient(cyan, #62a0b092);
-    justify-content: center;
-}
-
-.newrelease{
-    display:flex;
     justify-content: center;
 }
 
@@ -44,7 +42,7 @@ h3{
 h5{
 	display: flex;
 	justify-content: center;
-}
+} 
 /*Header Styles*/
 header {
 	background-color: rgba(255, 255, 255, 0.908);
@@ -99,37 +97,49 @@ header {
     padding:10px;
 }
 /*Modifications to the home page pictures*/
+.weather h2{
+	display:flex;
+	justify-content:left;
+	flex-direction: column;
+}
 .weather{
        display:flex;
-	   flex-direction: column;
 	   justify-content: left;
 }
 
 .temperature{
 	display:flex;
 	justify-content: center;
+	flex-direction: column;
 }
 
 .currently{
 	display:flex;
 	justify-content: center;
+	flex-direction: column;
 }
 
 .temp{
 	display:flex;
 	justify-content: center;
+	flex-direction: column;
 }
 
 .temp2{
 	display:flex;
 	justify-content: center;
+	flex-direction: column;
 }
 
+.featured{
+	display:flex;
+	flex-direction: column;
+	justify-content: right;
+}
 .featured h2{
 	display:flex;
 	justify-content: right;
 }
-
 .freshstrawberry{
 	display:flex;
 	justify-content: right;
@@ -167,6 +177,11 @@ header {
 /*Order page*/
 .submit{
 	padding: 10px;
+}
+
+#orderdate{
+	display:flex;
+	justify-content: center;
 }
 
 /*Footer edits*/

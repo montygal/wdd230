@@ -45,28 +45,18 @@
                 <div class="status"h1>Mix your own custom smoothie!</h1></div>
                 <p></p>
                 <form id="fruit">
-                    <label for="fname">First name:</label><br>
-                    <input type="name"id="name"name="name"required><br>
+                    <label for="name">First name:</label><br>
+                    <input type="name" id="name" name="name"required><br>
                     <label for="email">Email</label><br>
-                    <input type="email"id="email"name="email"required><br>
-                    <label for="phone number">Telephone Number</label><br>
-                    <input type="tel" id="phone number"name="phone number" required><br>
-                    <p></p>
-                    <label for="picking fruit">Pick Three:</label><br>
-                    <p></p>
-                    <input type="checkbox" id="strawberries" name="strawberries" value="strawberries">
-                    <label for="option1">Strawberries</label><br>
-                    <input type="checkbox" id="apples" name="apples" value="apples">
-                    <label for="option2">Apples</label><br>
-                    <input type="checkbox" id="bananas" name="bananas" value="bananas">
-                    <label for="option3">Bananas</label><br>
-                    <input type="checkbox"id="blueberry"name="blueberry"value="blueberry">
-                    <label for="option4">Blueberrys</label><br><br>
-                    <input type="checkbox"id="avocado"name="avocado"value="avocado">
-                    <label for="option5">Avocados</label><br><br>
-                    <p></p>
-                    <p><label for="business review">Special Instructions</label></p>
-                    <textarea id="special instructions" name="special instructions" rows="4" cols="50"></textarea><br>
+                    <input type="email" id="email" name="email"required><br>
+                    <label for="phoneNumber">Telephone Number</label><br>
+                    <input type="tel" id="phoneNumber"name="phone number" required><br>
+                    <label>Select three fruits:</label></br>
+                    <select id="fruit1"></select>
+                    <select id="fruit2"></select>
+                    <select id="fruit3"></select>
+                    <p><label for="special-instructions">Special Instructions</label></p>
+                    <textarea id="special-instructions" name="special-instructions" rows="4" cols="50"></textarea><br>
                     <p></p>
                     <p></p>
                     <input type="submit" value="Submit">
@@ -103,22 +93,34 @@
     </body>
     <div>
         <h1 id="submittedName"></h1>
+        <h1 id="submittedEmail"></h1>
+        <h1 id="submittedPhone"></h1>
+        <h1 id="submittedFruit1"></h1>
+        <h1 id="submittedFruit2"></h1>
+        <h1 id="submittedFruit3"></h1>
+        <h1 id="submitted-special-instructions"></h1>
+        <span id = "orderdate"></span>
+        <h1>Total Carbs: <span id="sumOfCarbs"> </span></h1>
+        <h1>Total Protein: <span id="sumOfProtein"> </span></h1>
+        <h1>Total Fat: <span id="sumOfFat"> </span></h1>
+        <h1>Total Calories: <span id="sumOfCalories"> </span></h1>
+        <h1>Total Sugar: <span id="sumOfSugar"> </span></h1>
     </div>
     <footer>
-        <div class = "mediumfooter">
+        <section class = "mediumfooter">
             <h5>Bountiful Foods</h5>
             <h5>323 Fresh Fruit Lane</h5>
             <h5>Carlsbad, CA</h5>
             <h5>info@fruit.info</h5>
             <h5>385-654-5676</h5>
-        </div>
-        <div class = "copyright">
+        </section>
+        <section class = "copyright">
             <h5>&copy: <em id = 'date'></em>2022 Bountiful Foods</h5>
             <h5>Sariah Tanner</h5>
-            <h5>WDD 230 project</h5> 
+            <h5>WDD 230 project</h5>
+        </section> 
             <span id = "lastmodifieddate"></span>
             <script src="scripts/javascript.js"></script>
             <script src="scripts/fruit.js"></script>
-        </div>
 </footer>
 </html>
