@@ -107,17 +107,6 @@ header {
 	   justify-content: left;
 }
 
-.temperature{
-	display:flex;
-	justify-content: center;
-	flex-direction: column;
-}
-
-.currently{
-	display:flex;
-	justify-content: center;
-	flex-direction: column;
-}
 
 .temp{
 	display:flex;
